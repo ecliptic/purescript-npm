@@ -23,7 +23,6 @@ Add `'node_modules/@purescript/*/src/**/*.purs'` and `'node_modules/purescript-*
     src: [
       'node_modules/@purescript/*/src/**/*.purs',
       'node_modules/purescript-*/src/**/*.purs',
-      'bower_components/purescript-*/src/**/*.purs',
       'src/**/*.purs'
     ]
   }
