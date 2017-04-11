@@ -1,6 +1,6 @@
 # purescript-npm
 
-Traditionally, the PureScript ecosystem has used the [Bower](https://bower.io/) package manager to manage packages. This tool came from the JavaScript community as an alternative to [npm](https://www.npmjs.com/), which was typically used only for backend Node packages at the time. Harry Garrood explained the reasons why in a great [blog post](http://harry.garrood.me/blog/purescript-why-bower/).
+Traditionally, the PureScript ecosystem has used the [Bower](https://bower.io/) package manager to manage packages. Harry Garrood explained the reasons why in a great [blog post](http://harry.garrood.me/blog/purescript-why-bower/). This tool came from the JavaScript community as an alternative to [npm](https://www.npmjs.com/), which was typically used only for backend Node packages at the time and used nested dependencies, which psc can't handle.
 
 In the broader JavaScript community, however, Bower has fallen out of favor. The community has begun to coalesce on npm, with tools like [Yarn](https://yarnpkg.com/en/) and [Lerna](https://lernajs.io/) springing up to help manage larger or more complex packaging workflows. The `--flat` option for Yarn avoids the PureScript community's issue with nested dependencies by preventing them altogether.
 
