@@ -12,7 +12,7 @@ To use these packages, you'll need to include `node_modules` in your build sourc
 
 ### purs-loader
 
-Add `'node_modules/purescript-*/src/**/*.purs',` to the `src` loader option:
+Add `'node_modules/@purescript/*/src/**/*.purs'` and `'node_modules/purescript-*/src/**/*.purs'`to the `src` loader option:
 
 ```js
 {
@@ -21,6 +21,7 @@ Add `'node_modules/purescript-*/src/**/*.purs',` to the `src` loader option:
   query: {
     psc: 'psa',
     src: [
+      'node_modules/@purescript/*/src/**/*.purs',
       'node_modules/purescript-*/src/**/*.purs',
       'bower_components/purescript-*/src/**/*.purs',
       'src/**/*.purs'
@@ -34,7 +35,7 @@ Add `'node_modules/purescript-*/src/**/*.purs',` to the `src` loader option:
 Include the `node_modules` dependencies on your `psc` command line.
 
 ```sh
-$ psc src/Main.purs 'node_modules/purescript-*/src/**/*.purs'
+$ psc src/Main.purs 'node_modules/@purescript/*/src/**/*.purs' 'node_modules/purescript-*/src/**/*.purs'
 ```
 
 ## Available Packages
