@@ -1,0 +1,195 @@
+[submodule "packages/prelude"]
+	path = packages/prelude
+	url = git@github.com:purescript/purescript-prelude.git
+[submodule "packages/eff"]
+	path = packages/eff
+	url = git@github.com:purescript/purescript-eff.git
+[submodule "packages/console"]
+	path = packages/console
+	url = git@github.com:purescript/purescript-console.git
+[submodule "packages/psci-support"]
+	path = packages/psci-support
+	url = git@github.com:purescript/purescript-psci-support.git
+[submodule "packages/react"]
+	path = packages/react
+	url = git@github.com:purescript-contrib/purescript-react.git
+[submodule "packages/unsafe-coerce"]
+	path = packages/unsafe-coerce
+	url = git@github.com:purescript/purescript-unsafe-coerce.git
+[submodule "packages/react-dom"]
+	path = packages/react-dom
+	url = git@github.com:purescript-contrib/purescript-react-dom.git
+[submodule "packages/dom"]
+	path = packages/dom
+	url = git@github.com:purescript-contrib/purescript-dom.git
+[submodule "packages/datetime"]
+	path = packages/datetime
+	url = git@github.com:purescript/purescript-datetime.git
+[submodule "packages/enums"]
+	path = packages/enums
+	url = git@github.com:purescript/purescript-enums.git
+[submodule "packages/exceptions"]
+	path = packages/exceptions
+	url = git@github.com:purescript/purescript-exceptions.git
+[submodule "packages/foldable-traversable"]
+	path = packages/foldable-traversable
+	url = git@github.com:purescript/purescript-foldable-traversable.git
+[submodule "packages/foreign"]
+	path = packages/foreign
+	url = git@github.com:purescript/purescript-foreign.git
+[submodule "packages/js-date"]
+	path = packages/js-date
+	url = git@github.com:purescript-contrib/purescript-js-date.git
+[submodule "packages/media-types"]
+	path = packages/media-types
+	url = git@github.com:purescript-contrib/purescript-media-types.git
+[submodule "packages/nullable"]
+	path = packages/nullable
+	url = git@github.com:purescript-contrib/purescript-nullable.git
+[submodule "packages/either"]
+	path = packages/either
+	url = git@github.com:purescript/purescript-either.git
+[submodule "packages/maybe"]
+	path = packages/maybe
+	url = git@github.com:purescript/purescript-maybe.git
+[submodule "packages/integers"]
+	path = packages/integers
+	url = git@github.com:purescript/purescript-integers.git
+[submodule "packages/monoid"]
+	path = packages/monoid
+	url = git@github.com:purescript/purescript-monoid.git
+[submodule "packages/partial"]
+	path = packages/partial
+	url = git@github.com:purescript/purescript-partial.git
+[submodule "packages/math"]
+	path = packages/math
+	url = git@github.com:purescript/purescript-math.git
+[submodule "packages/globals"]
+	path = packages/globals
+	url = git@github.com:purescript/purescript-globals.git
+[submodule "packages/assert"]
+	path = packages/assert
+	url = git@github.com:purescript/purescript-assert.git
+[submodule "packages/control"]
+	path = packages/control
+	url = git@github.com:purescript/purescript-control.git
+[submodule "packages/invariant"]
+	path = packages/invariant
+	url = git@github.com:purescript/purescript-invariant.git
+[submodule "packages/newtype"]
+	path = packages/newtype
+	url = git@github.com:purescript/purescript-newtype.git
+[submodule "packages/quickcheck"]
+	path = packages/quickcheck
+	url = git@github.com:purescript/purescript-quickcheck.git
+[submodule "packages/aff"]
+	path = packages/aff
+	url = git@github.com:slamdata/purescript-aff.git
+[submodule "packages/arrays"]
+	path = packages/arrays
+	url = git@github.com:purescript/purescript-arrays.git
+[submodule "packages/lists"]
+	path = packages/lists
+	url = git@github.com:purescript/purescript-lists.git
+[submodule "packages/nonempty"]
+	path = packages/nonempty
+	url = git@github.com:purescript/purescript-nonempty.git
+[submodule "packages/random"]
+	path = packages/random
+	url = git@github.com:purescript/purescript-random.git
+[submodule "packages/strings"]
+	path = packages/strings
+	url = git@github.com:purescript/purescript-strings.git
+[submodule "packages/transformers"]
+	path = packages/transformers
+	url = git@github.com:purescript/purescript-transformers.git
+[submodule "packages/st"]
+	path = packages/st
+	url = git@github.com:purescript/purescript-st.git
+[submodule "packages/tuples"]
+	path = packages/tuples
+	url = git@github.com:purescript/purescript-tuples.git
+[submodule "packages/unfoldable"]
+	path = packages/unfoldable
+	url = git@github.com:purescript/purescript-unfoldable.git
+[submodule "packages/lazy"]
+	path = packages/lazy
+	url = git@github.com:purescript/purescript-lazy.git
+[submodule "packages/generics"]
+	path = packages/generics
+	url = git@github.com:purescript/purescript-generics.git
+[submodule "packages/proxy"]
+	path = packages/proxy
+	url = git@github.com:purescript/purescript-proxy.git
+[submodule "packages/identity"]
+	path = packages/identity
+	url = git@github.com:purescript/purescript-identity.git
+[submodule "packages/functions"]
+	path = packages/functions
+	url = git@github.com:purescript/purescript-functions.git
+[submodule "packages/bifunctors"]
+	path = packages/bifunctors
+	url = git@github.com:purescript/purescript-bifunctors.git
+[submodule "packages/tailrec"]
+	path = packages/tailrec
+	url = git@github.com:purescript/purescript-tailrec.git
+[submodule "packages/distributive"]
+	path = packages/distributive
+	url = git@github.com:purescript/purescript-distributive.git
+[submodule "packages/debug"]
+	path = packages/debug
+	url = git@github.com:garyb/purescript-debug.git
+[submodule "packages/argonaut-core"]
+	path = packages/argonaut-core
+	url = git@github.com:purescript-contrib/purescript-argonaut-core.git
+[submodule "packages/strongcheck"]
+	path = packages/strongcheck
+	url = git@github.com:purescript-contrib/purescript-strongcheck.git
+[submodule "packages/gen"]
+	path = packages/gen
+	url = git@github.com:purescript/purescript-gen.git
+[submodule "packages/maps"]
+	path = packages/maps
+	url = git@github.com:purescript/purescript-maps.git
+[submodule "packages/free"]
+	path = packages/free
+	url = git@github.com:purescript/purescript-free.git
+[submodule "packages/machines"]
+	path = packages/machines
+	url = git@github.com:purescript-contrib/purescript-machines.git
+[submodule "packages/catenable-lists"]
+	path = packages/catenable-lists
+	url = git@github.com:purescript/purescript-catenable-lists.git
+[submodule "packages/exists"]
+	path = packages/exists
+	url = git@github.com:purescript/purescript-exists.git
+[submodule "packages/functors"]
+	path = packages/functors
+	url = git@github.com:purescript/purescript-functors.git
+[submodule "packages/profunctor"]
+	path = packages/profunctor
+	url = git@github.com:purescript/purescript-profunctor.git
+[submodule "packages/const"]
+	path = packages/const
+	url = git@github.com:purescript/purescript-const.git
+[submodule "packages/contravariant"]
+	path = packages/contravariant
+	url = git@github.com:purescript/purescript-contravariant.git
+[submodule "packages/argonaut"]
+	path = packages/argonaut
+	url = git@github.com:purescript-contrib/purescript-argonaut.git
+[submodule "packages/argonaut-codecs"]
+	path = packages/argonaut-codecs
+	url = git@github.com:purescript-contrib/purescript-argonaut-codecs.git
+[submodule "packages/argonaut-traversals"]
+	path = packages/argonaut-traversals
+	url = git@github.com:purescript-contrib/purescript-argonaut-traversals.git
+[submodule "packages/profunctor-lenses"]
+	path = packages/profunctor-lenses
+	url = git@github.com:purescript-contrib/purescript-profunctor-lenses.git
+[submodule "packages/sets"]
+	path = packages/sets
+	url = git@github.com:purescript/purescript-sets.git
+[submodule "packages/lens"]
+	path = packages/lens
+	url = git@github.com:purescript-contrib/purescript-lens.git

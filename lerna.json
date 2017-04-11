@@ -1,0 +1,6 @@
+{
+  "lerna": "v2.0.0-rc.1",
+  "independent": true,
+  "hoist": true,
+  "npmClient": "yarn"
+}

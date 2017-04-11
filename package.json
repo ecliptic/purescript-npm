@@ -1,0 +1,24 @@
+{
+  "name": "@purescript/npm",
+  "version": "1.0.0",
+  "description": "An experiment in packaging the PureScript ecosystem with npm",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "publish": "lerna publish && git push --tags",
+    "update": "git submodule update --recursive --remote"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecliptic/purescript-npm.git"
+  },
+  "author": "Brandon Konkle <brandon@ecliptic.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecliptic/purescript-npm/issues"
+  },
+  "homepage": "https://github.com/ecliptic/purescript-npm#readme",
+  "devDependencies": {
+    "lerna": "^2.0.0-rc.1"
+  }
+}
