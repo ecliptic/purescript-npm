@@ -193,3 +193,6 @@
 [submodule "packages/lens"]
 	path = packages/lens
 	url = git@github.com:purescript-contrib/purescript-lens.git
+[submodule "packages/arraybuffer-types"]
+	path = packages/arraybuffer-types
+	url = git@github.com:purescript-contrib/purescript-arraybuffer-types.git

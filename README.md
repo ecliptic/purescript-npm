@@ -40,3 +40,19 @@ $ psc src/Main.purs 'node_modules/@purescript/*/src/**/*.purs' 'node_modules/pur
 ## Available Packages
 
 [The full list of available packages!](https://www.npmjs.com/org/purescript)
+
+## Development
+
+Adding a package:
+
+```sh
+$ git submodule add https://github.com/$USER/purescript-$PROJECT.git
+$ scripts/refresh.js $PROJECT
+```
+
+Currently, this throws an error. It's expected, and I'll smooth that out later. To resolve, just publish the new package.
+
+```sh
+$ cd packages/$PROJECT
+$ npm publish --access public
+```
