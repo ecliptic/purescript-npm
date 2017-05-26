@@ -46,7 +46,7 @@ $ psc src/Main.purs 'node_modules/@purescript/*/src/**/*.purs' 'node_modules/pur
 Adding a package:
 
 ```sh
-$ git submodule add https://github.com/$USER/purescript-$PROJECT.git
+$ git submodule add https://github.com/$GHUSER/purescript-$PROJECT.git packages/$PROJECT
 $ scripts/refresh.js $PROJECT
 ```
 

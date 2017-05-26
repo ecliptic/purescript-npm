@@ -196,3 +196,36 @@
 [submodule "packages/arraybuffer-types"]
 	path = packages/arraybuffer-types
 	url = git@github.com:purescript-contrib/purescript-arraybuffer-types.git
+[submodule "packages/node-process"]
+	path = packages/node-process
+	url = https://github.com/purescript-node/purescript-node-process.git
+[submodule "packages/node-streams"]
+	path = packages/node-streams
+	url = https://github.com/purescript-node/purescript-node-streams.git
+[submodule "packages/node-readline"]
+	path = packages/node-readline
+	url = https://github.com/purescript-node/purescript-node-readline.git
+[submodule "packages/node-child-process"]
+	path = packages/node-child-process
+	url = https://github.com/purescript-node/purescript-node-child-process.git
+[submodule "packages/node-fs-aff"]
+	path = packages/node-fs-aff
+	url = https://github.com/purescript-node/purescript-node-fs-aff.git
+[submodule "packages/node-http"]
+	path = packages/node-http
+	url = https://github.com/purescript-node/purescript-node-http.git
+[submodule "packages/node-fs"]
+	path = packages/node-fs
+	url = https://github.com/purescript-node/purescript-node-fs.git
+[submodule "packages/posix-types"]
+	path = packages/posix-types
+	url = https://github.com/purescript-node/purescript-posix-types.git
+[submodule "packages/node-url"]
+	path = packages/node-url
+	url = https://github.com/purescript-node/purescript-node-url.git
+[submodule "packages/node-path"]
+	path = packages/node-path
+	url = https://github.com/purescript-node/purescript-node-path.git
+[submodule "packages/node-buffer"]
+	path = packages/node-buffer
+	url = https://github.com/purescript-node/purescript-node-buffer.git
