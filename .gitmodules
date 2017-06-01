@@ -235,3 +235,9 @@
 [submodule "packages/affjax"]
 	path = packages/affjax
 	url = https://github.com/slamdata/purescript-affjax.git
+[submodule "packages/records"]
+	path = packages/records
+	url = https://github.com/doolse/purescript-records.git
+[submodule "packages/type-equality"]
+	path = packages/type-equality
+	url = https://github.com/purescript/purescript-type-equality.git

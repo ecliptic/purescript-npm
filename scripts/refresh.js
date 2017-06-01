@@ -66,26 +66,27 @@ function main (args) {
     writeFileSync(withDir('package.json'), JSON.stringify(newPkg, null, 2))
 
     // Check to see if the package needs to be published
-    let latest
     try {
-      latest = execSync(`npm show @purescript/${pkg} version`, silent)
+      const latest = execSync(`npm show @purescript/${pkg} version`, silent)
         .toString()
         .trim()
+
+      if (latest !== version) {
+        console.log('Publishing...')
+
+        try {
+          execSync('npm publish', opts)
+        } catch (error) {
+          errors.push(pkg)
+        }
+      } else {
+        console.log('Not publishing - same version.')
+      }
     } catch (error) {
       // Try publishing the package - it may be new
+      console.log('Publishing as a new package...')
+
       execSync('npm publish --access public', silent)
-    }
-
-    if (latest !== version) {
-      console.log('Publishing...')
-
-      try {
-        execSync('npm publish', opts)
-      } catch (error) {
-        errors.push(pkg)
-      }
-    } else {
-      console.log('Not publishing - same version.')
     }
   })
 
