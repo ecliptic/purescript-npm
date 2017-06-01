@@ -49,10 +49,3 @@ Adding a package:
 $ git submodule add https://github.com/$GHUSER/purescript-$PROJECT.git packages/$PROJECT
 $ scripts/refresh.js $PROJECT
 ```
-
-Currently, this throws an error. It's expected, and I'll smooth that out later. To resolve, just publish the new package.
-
-```sh
-$ cd packages/$PROJECT
-$ npm publish --access public
-```

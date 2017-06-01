@@ -229,3 +229,9 @@
 [submodule "packages/node-buffer"]
 	path = packages/node-buffer
 	url = https://github.com/purescript-node/purescript-node-buffer.git
+[submodule "packages/reactnative"]
+	path = packages/reactnative
+	url = https://github.com/doolse/purescript-reactnative.git
+[submodule "packages/affjax"]
+	path = packages/affjax
+	url = https://github.com/slamdata/purescript-affjax.git
